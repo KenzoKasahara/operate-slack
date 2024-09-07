@@ -8,6 +8,17 @@
 slack_sdk
 ```
 
+## Slackでアプリ作成時に付与必須権限
+
+- 事前にSlackアプリを作成する必要あり
+- 作成後、「Outh Tokens」を発行し、環境変数に保存
+- 「Scopes」にて以下の権限を付与する
+  - Outh & Permissions
+  - channels:manage
+  - groups:write
+  - im:write
+  - mpim:write
+
 ## 機能概要
 
 - 「create_channels_info.json」の情報をもとにSlackチャンネルを作成

@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-SLACK_ACCESS_TOKEN = os.environ['SLACK_API_TOKEN']
+SLACK_ACCESS_TOKEN = os.environ['SLACK_API_TOKEN']  # OAuth Tokensを設定
 
 
 # ロギング設定
