@@ -1,0 +1,12 @@
+{
+    "slack": [
+        {
+            "channel_name": "test_channel_1",
+            "discription": "discription_1"
+        },
+        {
+            "channel_name": "test_channel_2",
+            "discription": "discription_2"
+        }
+    ]
+}
